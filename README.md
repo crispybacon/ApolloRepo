@@ -1,2 +1,2 @@
 # Apollo Repo 
-My repo of Code and snippets as I work through various libs.  Oneday I will put together a framework.
+My repo of Code and snippets as I work through various libs.  One day I will put together a framework.
