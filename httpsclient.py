@@ -27,7 +27,7 @@ def SSL_GET_WITH_HEADERS():
 def SSL_GET_WITH_AGENT_STRING():
     pass
 
-def encode_url(URL)
+def encode_url(URL):
     pass
 
 
