@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import nltk
+from collections import defaultdict
 #Jesse Bacon
 #Putz Moby Dick into a Matrix and then graphs the charecter frequency distribution.
 #Ready for Styles and everything.
