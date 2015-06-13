@@ -20,7 +20,7 @@ def zip_book(wordlist,matrix):
     for word in wordlist:
         for letter in word:
             matrix[letter] += 1
-    return cake
+    return matrix
 
 def make_frequency_chart(zipped_book, title):
     lines = []
