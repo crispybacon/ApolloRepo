@@ -60,7 +60,7 @@ def programmatic_table(list_of_dicts):
         c +=1
     table = pd.concat( frames, )
     table.index=(range(0,len(table)))
-    return chart
+    return table
 #table = types_table_manual()
 table = programmatic_table(types_b)
 print(table)
