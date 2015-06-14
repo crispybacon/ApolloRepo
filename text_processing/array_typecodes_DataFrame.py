@@ -28,8 +28,8 @@ def types_chart_table():
     df9 = pd.DataFrame(L)
     df10 = pd.DataFrame(f)
     df11 = pd.DataFrame(d)
-    chart = pd.concat( [df0,df1,df2,df3,df4,df5,df6,df7,df8,df9,df10,df11], axis=1 )
-    return chart
+    table = pd.concat( [df0,df1,df2,df3,df4,df5,df6,df7,df8,df9,df10,df11], axis=1 )
+    return table
 
 types_b = [
     {'c':{'Type Code':'c', 'C Type':'char', 'Python Type':'character', 'Minimum Bytes':'1', }},
@@ -58,9 +58,9 @@ def programmatic_table(list_of_dicts):
         #df.rename(index={i: types_b[0].keys()[0]})
         frames.append(df)
         c +=1
-    chart = pd.concat( frames, )
-    chart.index=(range(0,len(chart)))
+    table = pd.concat( frames, )
+    table.index=(range(0,len(table)))
     return chart
-#chart = types_table_manual()
-chart = programmatic_table(types_b)
-print(chart)
+#table = types_table_manual()
+table = programmatic_table(types_b)
+print(table)
