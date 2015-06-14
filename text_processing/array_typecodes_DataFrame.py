@@ -1,6 +1,6 @@
 #Jesse Bacon
 #Demonstrates combining DataFrames to make a chart or data stream
-#Will render and HTML table in IPython
+#Will render an HTML table in IPython
 import pandas as pd
 def types_chart_table():
     type_codes = []
