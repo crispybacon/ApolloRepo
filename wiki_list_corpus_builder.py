@@ -23,7 +23,7 @@ def build_list_data(content):
         #I had to put these in
         re.sub( r'\xe2\x80\x9308|\xe2\x80\x9310|\xe2\x80\x9309', '', line )
         re.sub( r'(1966\u20132001)', '1966-2001', line  )
-        re.sub( 'r\u2013', '', line )
+        re.sub( r'\u2013', '', line )
         if line.startswith('Lists of tenants in the World Trade Center'):
             line.replace(line, 'Lists of tenants in the World Trade Center (1966-2001)')
         if line.endswith('World Trade Center (1966\u20132001)'):
