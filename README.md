@@ -1,2 +1,3 @@
 # Apollo Repo 
-My repo of Code and snippets as I work through various libs.  One day I will put together a framework.
+I am working on a book.  Feel free to look at the code.  If you like it, buy my book when it comes out.  
+-Jesse Bacon
