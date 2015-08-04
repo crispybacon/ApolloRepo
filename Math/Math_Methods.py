@@ -35,7 +35,7 @@ def fibonacci_sequence1(start, end):
     else:
         return fibs
     
-    def build_pascals_triangle(rows):
+def build_pascals_triangle(rows):
     '''
     Build a Pascal's Triangle to the number of rows specified in Dict Form.
     Starts at row 0
@@ -60,3 +60,22 @@ def fibonacci_sequence1(start, end):
         row.append(1)
         pascals_triangle[len(row)-1] = row
     return pascals_triangle
+
+def pascals_triangle_sums(triangle_object):
+    '''
+    Return the sums for a given number of rows from pascals triangle
+    in list format.
+    
+    example:
+    
+    pascals_triangle_sums(build_pascals_triangle(10))
+    '''
+    bits = []
+    z = 0
+    for i in range(len(triangle_object)):
+        y = triangle_object[i]
+        for num in y:
+            z += num
+        bits.append(z)
+        z = 0
+    return bits
