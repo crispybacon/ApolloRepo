@@ -25,7 +25,7 @@ def APOD(date, concept_tags):
     https://api.data.gov/nasa/planetary/apod?concept_tags=True&api_key=DEMO_KEY
     """
     request='https://api.data.gov/nasa/planetary/apod'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'date': date, 'concept_tags': concept_tags, 'api_key': key}
     query=urllib.urlencode(form)
     APOD_request=urllib.urlopen(request+"?"+query)
@@ -81,7 +81,7 @@ def landsat8(lat, lon, dim, cloud_score, target_date):
     landsat8(x[0], x[1], '0.07', 'True', '2014-07-31')
     """
     request='https://api.data.gov/nasa/planetary/earth/imagery'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'lat': str(lat), 'lon': str(lon), 'dim': dim, 'cloud_score': cloud_score, 'date': target_date, 'api_key': key}
     query=urllib.urlencode(form)
     landsat8_request_string=urllib.urlopen(request+"?"+query)
@@ -117,7 +117,7 @@ def Assets(lat, lon, begin, end):
  https://api.data.gov/nasa/planetary/earth/assets?lon=100.75&lat=1.5&begin=2014-02-01&api_key=DEMO_KEY
     """
     request='https://api.data.gov/nasa/planetary/earth/assets'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'lat': str(lat), 'lon': str(lon), 'begin': begin, 'end': end, 'api_key': key}
     query=urllib.urlencode(form)
     landsat8_request_string=urllib.urlopen(request+"?"+query)
@@ -158,7 +158,7 @@ def Assets(lat, lon, begin, end):
     temperature_anomolies_address('1880', '2015', '20110')
     """
     request='https://api.data.gov/nasa/planetary/earth/temperature/address'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'begin':  str(begin), 'end': str(end), 'text': text, 'api_key': key}
     query=urllib.urlencode(form)
     temp_address_request_string=urllib.urlopen(request+"?"+query)
@@ -204,7 +204,7 @@ def plot_temps(begin, end, text):
     https://api.data.gov/nasa/planetary/earth/temperature/coords?lon=100.3&lat=1.6&begin=1990&end=2005&api_key=DEMO_KEY
     """
     request='https://api.data.gov/nasa/planetary/earth/temperature/coords'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'begin':  str(begin), 'end': str(end), 'lat': lat, 'lon': lon, 'api_key': key}
     query=urllib.urlencode(form)
     temp_point_request_string=urllib.urlopen(request+"?"+query)
@@ -248,7 +248,7 @@ def patents(text, concept_tags):
     https://api.data.gov/nasa/patents/content?query=temperature&limit=5&api_key=DEMO_KEY
     """
     request='https://api.data.gov/nasa/patents/content'
-    key='avVkP0IKbxes8S3MVnAehU97VAS9vRMmbjbkYjm4'
+    key=''
     form={'query': text,'concepte_tags': concept_tags, 'api_key': key}
     query=urllib.urlencode(form)
     patent_request_string=urllib.urlopen(request+"?"+query)
