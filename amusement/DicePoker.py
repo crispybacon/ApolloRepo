@@ -375,11 +375,11 @@ def compare_fives():
     while True:
         your_penta = [ x[0] for x in hand_fd if x[1] == 5 ]
         shark_penta = [ y[0] for y in shark_fd if y[1] == 5 ]
-        if your_quads > shark_quads:
+        if your_penta > shark_penta:
             win = 1
             print("You have the higher card in Texas standoff.")
             return scores()
-        elif shark_quads < your_quads:
+        elif shark_penta < your_penta:
             lose = 1
             print("Shark has the higher card in a Texas standoff.")
             return scores()
