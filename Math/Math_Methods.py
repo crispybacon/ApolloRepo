@@ -206,3 +206,138 @@ def graph_primed_suspects( start, end ):
 
     plt.show()
     return primes
+
+def divisibility_by_1_20( num ):
+    #assert type(int(num)) == int, 'Pass a numeric value for num'
+    #assert fails on large numbers
+    try:
+        divisibles = []
+        alt_sum = alternating_sum(num)
+        alt_sum_b3rl = alternating_sum_b3_right_to_left(num)
+        series = [float(w) for w in str(num)[:]]
+        op1 = 0
+        str_num = str(num)
+        if num % 2 == 0:
+            divisibles.append(2)
+        for i in series: op1 += i
+        if op1 % 3 == 0:
+            divisibles.append(3)
+        if int(str(num)[-2:]) % 4 == 0:
+                divisibles.append(4)
+        if series[-1] in [0,5]:
+            divisibles.append(5)
+        if 2 in divisibles and 3 in divisibles:
+            divisibles.append(6)
+        if alt_sum_b3rl % 7 == 0:
+            divisibles.append(7)
+        str_num = str(num)
+        if len(str_num) >= 3:
+            running_sum = 0
+            x_8 = str_num[-3:]
+            x_sums = []
+            for item in x_8:
+                x_sums.append(int(item))
+            running_sum = 0
+            x_8 = str_num[-3:]
+            x_sums = []
+            for item in x_8:
+                x_sums.append(int(item))
+            y = (x_sums[0] * 4 + x_sums[1] * 2 + x_sums[2])
+            if y % 8 == 0:
+                 divisibles.append(8)
+        elif num % 8 == 0:
+            divisibles.append(8)
+        running_sum = 0
+        for item in [int(w) for w in str_num]: 
+            running_sum += item
+        if running_sum % 9 == 0:
+            divisibles.append(9)
+        if str_num[-1] == '0':
+            divisibles.append(10)
+        if alt_sum % 11 == 0:
+            divisibles.append(11)
+        if 2 in divisibles and 3 in divisibles:
+            divisibles.append(12)
+        if alt_sum_b3rl % 13 == 0:
+            divisibles.append(13)
+        if 2 in divisibles and 7 in divisibles:
+            divisibles.append(14)
+        if 3 in divisibles and 5 in divisibles:
+            divisibles.append(15)
+        if len(str_num) >= 4:
+            sub_num_16 = int(str_num[-4:])
+        if sub_num_16 % 16 == 0:
+            divisibles.append(16)
+        elif num % 16 == 0:
+            divisibles.append(16)
+        if num % 17 == 0:
+            divisibles.append(17)
+        if 2 in divisibles and 9 in divisibles:
+            divisibles.append(18)
+        if num % 19 == 0:
+            divisibles.append(19)
+        if int(str_num[-2:]) % 20 == 0 or str_num[-2:] == '00':
+            divisibles.append(20)
+        return divisibles
+    except:
+        print('Pass in convertable Numeric Values')
+
+def divisibility_by3_large_numbers(num):
+    assert type(int(num)) == int, 'Pass a numeric value for num'
+    series = [float(w) for w in str(num)[:]]
+    op1 = [w for w in series if w in [1,4,7]]
+    op2 = [w for w in series if w in [2,5,8]]
+    x, y, = 0, 0
+    for i in op1: x += i
+    for i in op2: y += i
+    if (x + y) % 3 == 0:
+        return 3
+
+def alternating_sum(num):
+    str_num = str(num)
+    running_sum = 0
+    x_sums = [int(c) for c in str_num]
+    for i in range(len(x_sums)):
+        if i%2 == 0:
+            running_sum += x_sums[i]
+        if i%2 == 1:
+            running_sum -= x_sums[i]
+    return running_sum
+
+def alternating_sum_b3_right_to_left(num):
+    str_num = str(num)
+    running_sum = 0
+    x_sums = []
+    while len(str_num) > 3:
+        x = str_num[-3:]
+        str_num = str_num[:-3]
+        x_sums.append(int(x))
+    x_sums.append(int(str_num))
+    for i in range(len(x_sums)):
+        if i%2 == 0:
+            running_sum += x_sums[i]
+        if i%2 == 1:
+            running_sum -= x_sums[i]
+    return running_sum
+
+def graph_divisibility(num):
+    divisions = divisibility_by_1_20(num)
+    div_tuples = tuple(divisions)
+    values = []
+    for i in divisions:
+        values.append(num / i)
+    sorted(values)
+    N = len( divisions )
+    ticks = div_tuples
+    ind = np.arange( N )
+    width = 0.36
+
+    p1 = plt.bar( ind, values, width, color = 'g' )
+
+    plt.ylabel( 'Value' )
+    plt.title( 'Divsibility Pattern' )
+    plt.xticks( ind + width/2., ticks )
+
+    plt.show()
+    return divisions
+    
