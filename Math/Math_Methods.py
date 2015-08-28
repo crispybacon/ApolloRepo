@@ -125,3 +125,84 @@ def graph_primed_roots( start, end ):
 
     plt.show()
     return primes
+
+def prime_remainder( b ):
+    x = str(float(b) / 4.0)[-2:]
+    if x == '25':
+        remainder = 1
+    elif x == '75':
+        remainder = 3
+    return remainder
+
+def investigate_primes( start, end ):
+    solutions = {}
+    for b in list_of_primes(start,end):
+        remainder = prime_remainder( b )
+        for i in range(0,b):
+            for i2 in range(0,b):
+                if i**3 == b:
+                    solutions[b] = (triplcate, (i), remainder )
+                elif i**3 + i2**2 == b:
+                    solutions[b] = ('triplicate plus square',  (i, i2), remainder )
+                elif i**3 + i**2 == b:
+                    solutions[b] = ('triplicate plus square of same', b, (i), remainder )
+                elif i**2 + i == b:
+                    solutions[b] = ('square plus same', (i), remainder )
+    return solutions
+
+def prime_remainder( b ):
+    x = str(float(b) / 4.0)[-2:]
+    if x == '25':
+        remainder = 1
+    elif x == '75':
+        remainder = 3
+    return remainder
+
+def investigate_primes( start, end ):
+    solutions = {}
+    for b in list_of_primes(start,end):
+        remainder = prime_remainder( b )
+        for i in range(0,b):
+            for i2 in range(0,b):
+                if i**3 == b:
+                    solutions[b] = ('triplcate', (i), remainder )
+                elif i**3 + i2**2 == b:
+                    solutions[b] = ('triplicate plus square',  (i, i2), remainder )
+                elif i**3 + i**2 == b:
+                    solutions[b] = ('triplicate plus square of same', b, (i), remainder )
+                elif i**2 + i == b:
+                    solutions[b] = ('square plus same', (i), remainder )
+    return solutions
+
+def graph_primed_suspects( start, end ):
+    primes = investigate_primes( start, end ) 
+    N = len( primes )
+    ticks = tuple(sorted(primes))
+    t_plus_s_square1 = [primes[i][1][0] for i in sorted(primes) if primes[i][0] == 'triplicate plus square' ]
+    t_plus_s_square2 = [primes[i][1][1] for i in sorted(primes) if primes[i][0] == 'triplicate plus square' ]
+    #t1 = [primes[i][1][0] for i in sorted(primes) if primes[i][0] == 'triplicate' ]
+    #t2 = [primes[i][1][1] for i in sorted(primes) if primes[i][0] == 'triplicate' ]
+    #t_plus_same_square1 = [primes[i][1][0] for i in sorted(primes) if primes[i][0] == 'triplicate plus square of same' ]
+    #t_plus_same_square2 = [primes[i][1][1] for i in sorted(primes) if primes[i][0] == 'triplicate plus square of same' ]
+    #s_plus_same1 = [primes[i][1][0] for i in sorted(primes) if primes[i][0] == 'square plus same' ]
+    #s_plus_same2 = [primes[i][1][1] for i in sorted(primes) if primes[i][0] == 'square plus same' ]
+    
+    ind = np.arange( N )
+    width = 0.12
+
+    p1 = plt.bar( ind, t_plus_s_square1, width, color = 'b' )
+    p2 = plt.bar( ind, t_plus_s_square2, width, color = 'r' )
+    #p3 = plt.bar( ind, t1, width, color = 'g' )
+    #p4 = plt.bar( ind, t2, width, color = 'y' )
+    #p5 = plt.bar( ind, t_plus_same_square1, width, color = 'k' )
+    #p6 = plt.bar( ind, t_plus_same_square2, width, color = 'c' )
+    #p7 = plt.bar( ind, s_plus_same1, width, color = 'm' )
+    #p8 = plt.bar( ind, s_plus_same2, width, color = 'w' )
+
+    plt.ylabel( 'Prime' )
+    plt.title( 'Primes Investigation' )
+    plt.xticks( ind + width/2., ticks )
+    #plt.legend( (p1[0], p2[0]), ( 'Square1', 'Square2' ) )
+
+    plt.show()
+    return primes
