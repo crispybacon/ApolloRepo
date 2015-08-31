@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Jesse Bacon 8/30/2015
-# A Module to acces the Yallow Pages API in Canada.  
+# A Module to access the Yallow Pages API in Canada.  
 # The module will be used to Gather business data for utilization 
 # in data visualization and database operation as well as GIS exercises.
 # An API key is required for operation.  You can request one at :
