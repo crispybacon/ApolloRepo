@@ -10,6 +10,7 @@ api_key = ''
 '''
 get a key
 https://www.mywot.com/wiki/API
+You must not make more than 25000 API requests during any 24 hour period.
 '''
 
 def WOT_request(domain):
