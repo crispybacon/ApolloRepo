@@ -5,33 +5,12 @@ http://api.mywot.com/version/interface?param1=value1&param2=value2
 http://api.mywot.com/0.4/public_link_json2?hosts=example.COM/www.EXAMPLE.NET/&callback=process&key=<your API key>
 '''
 
-categories = {
-    #'Negative':{
-    101:'Malware or Viruses',
-    102:'Poor customer experience',
-    103:'Phishing',
-    104:'Scam',
-    105:'Potentially illegal',
-    #},
-    #'Questionable':{
-    201:'Misleadig claims or unethical',
-    202:'Privacy Risks',
-    203:'Suspicious',
-    204:'Hate, discrimination',
-    205:'Spam',
-    206:'Potentially Unwanted Programs',
-    207:'Ads/pop-ups',
-    #},
-    #'Neutral':{
-    301:'Online Tracking',
-    302:'Alternative or controversial medicine',
-    303:'Opinions, religion, politics',
-    304:'Other',
-    #},
-    #'Positive':{
-    501:'Good Site',
-    #},
-}
+api_key = ''
+
+'''
+get a key
+https://www.mywot.com/wiki/API
+'''
 
 def WOT_request(domain):
     results = {}
