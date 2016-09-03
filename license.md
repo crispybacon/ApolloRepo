@@ -4,7 +4,7 @@ Copyright (c) [2015] [Jesse Marlon Bacon]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to 
-use academically the software.  Projects using the sodtware should reach out to
+use academically the software.  Projects using the software should reach out to
 the owner of this repository for collaboration efforts and agreements.  The original works
 in this repository remain the intellectual property of the author but are published here for use
 within the community.  
