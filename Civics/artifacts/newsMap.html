@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8f5df5d603c54c56af10a4733fd15e91 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8f5df5d603c54c56af10a4733fd15e91" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_8f5df5d603c54c56af10a4733fd15e91 = L.map(
+                                  'map_8f5df5d603c54c56af10a4733fd15e91',
+                                  {center: [47,2],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_4625616301fe44c9b06f7a6789fc5157 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+
+        
+    
+            var marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9 = L.markerClusterGroup();
+            map_8f5df5d603c54c56af10a4733fd15e91.addLayer(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+            var marker_fffe322bc1a34eec84e67bfabdc37f4f = L.marker(
+                [43.9288999999999987267074175179004669189453125,2.146399999999999863575794734060764312744140625],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_cf3d36e683c84811be3e8fa407ca8afe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fffe322bc1a34eec84e67bfabdc37f4f.setIcon(icon_cf3d36e683c84811be3e8fa407ca8afe);
+            
+    
+            var popup_34b43249437e45699f1ab740cf3c88ed = L.popup({maxWidth: '450'});
+
+            
+                var html_fc3fa196f0644ae59c49c0db638895b3 = $('<div id="html_fc3fa196f0644ae59c49c0db638895b3" style="width: 100.0%; height: 100.0%;"><b>Title: </b>As France’s Towns Wither, Fears of a Decline in ‘Frenchness’</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: France is losing the core of its historic provincial towns — dense hubs of urbanity deep in the countryside where judges judged and Balzac set his novels.</br>     <b>link:</b> http://www.nytimes.com/2017/02/28/world/europe/france-albi-french-towns-fading.html</br>          <img src="https://static01.nyt.com/images/2017/03/01/world/00albi-01/00albi-01-mediumThreeByTwo440.jpg" alt=Dmitry Kostyukov for The New York Times></br>          <b>Caption: </b>Albi, an hour northeast of Toulouse, is among a growing number of French towns encountering commercial decline.</br>          </div>')[0];
+                popup_34b43249437e45699f1ab740cf3c88ed.setContent(html_fc3fa196f0644ae59c49c0db638895b3);
+            
+
+            marker_fffe322bc1a34eec84e67bfabdc37f4f.bindPopup(popup_34b43249437e45699f1ab740cf3c88ed);
+
+            
+        
+    
+
+            var marker_a84e211f559d4d0f89f7eb23f73f7ec5 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_a1d3d000237f4f75ae51c934689d409f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a84e211f559d4d0f89f7eb23f73f7ec5.setIcon(icon_a1d3d000237f4f75ae51c934689d409f);
+            
+    
+            var popup_843fe38f229d41639e67c2f1f6d00f23 = L.popup({maxWidth: '450'});
+
+            
+                var html_0fd2795423e944329d9a2180f9df9840 = $('<div id="html_0fd2795423e944329d9a2180f9df9840" style="width: 100.0%; height: 100.0%;"><b>Title: </b>As France’s Towns Wither, Fears of a Decline in ‘Frenchness’</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: France is losing the core of its historic provincial towns — dense hubs of urbanity deep in the countryside where judges judged and Balzac set his novels.</br>     <b>link:</b> http://www.nytimes.com/2017/02/28/world/europe/france-albi-french-towns-fading.html</br>          <img src="https://static01.nyt.com/images/2017/03/01/world/00albi-01/00albi-01-mediumThreeByTwo440.jpg" alt=Dmitry Kostyukov for The New York Times></br>          <b>Caption: </b>Albi, an hour northeast of Toulouse, is among a growing number of French towns encountering commercial decline.</br>          </div>')[0];
+                popup_843fe38f229d41639e67c2f1f6d00f23.setContent(html_0fd2795423e944329d9a2180f9df9840);
+            
+
+            marker_a84e211f559d4d0f89f7eb23f73f7ec5.bindPopup(popup_843fe38f229d41639e67c2f1f6d00f23);
+
+            
+        
+    
+
+            var marker_19e017057e914874819a19446dff1f24 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_9d74e4019e5b4f7b9d4b794f85956897 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19e017057e914874819a19446dff1f24.setIcon(icon_9d74e4019e5b4f7b9d4b794f85956897);
+            
+    
+            var popup_61a7b60ed124446697e5e23e23f2e0e7 = L.popup({maxWidth: '450'});
+
+            
+                var html_5149a3c52dce4152b55866873b123829 = $('<div id="html_5149a3c52dce4152b55866873b123829" style="width: 100.0%; height: 100.0%;"><b>Title: </b>France Braces for the Now-Possible Impossible</br>     <b>Byline:</b> By SYLVIE KAUFFMANN</br>     <b>Abstract</b>: Can Marine Le Pen be stopped, and with her the trans-Atlantic onrush of populism?</br>     <b>link:</b> http://www.nytimes.com/2017/03/07/opinion/france-braces-for-the-now-possible-impossible.html</br>          <img src="https://static01.nyt.com/images/2017/03/08/opinion/sunday/08kauffmann/08kauffmann-mediumThreeByTwo440.jpg" alt=Geoffroy Van Der Hasselt/Agence France-Presse — Getty Images></br>          <b>Caption: </b>Marine Le Pen in Paris this week.</br>          </div>')[0];
+                popup_61a7b60ed124446697e5e23e23f2e0e7.setContent(html_5149a3c52dce4152b55866873b123829);
+            
+
+            marker_19e017057e914874819a19446dff1f24.bindPopup(popup_61a7b60ed124446697e5e23e23f2e0e7);
+
+            
+        
+    
+
+            var marker_24bac928962c45099c6e215b55f2542b = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_81c910a0e98f4f12ad173d9cca477467 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24bac928962c45099c6e215b55f2542b.setIcon(icon_81c910a0e98f4f12ad173d9cca477467);
+            
+    
+            var popup_08fe7ed2432c479e803edfed664c49b8 = L.popup({maxWidth: '450'});
+
+            
+                var html_ed05c9edfe944f7fa3a77b760410c1a8 = $('<div id="html_ed05c9edfe944f7fa3a77b760410c1a8" style="width: 100.0%; height: 100.0%;"><b>Title: </b>François Fillon, French Presidential Candidate, Is Charged With Embezzlement</br>     <b>Byline:</b> By AURELIEN BREEDEN</br>     <b>Abstract</b>: Mr. Fillon is facing several corruption allegations, mainly that his wife and two of his children were paid with taxpayer funds as parliamentary aides for no-show jobs.</br>     <b>link:</b> http://www.nytimes.com/2017/03/14/world/europe/france-francois-fillon-charged.html</br>          <img src="https://static01.nyt.com/images/2017/03/15/world/15Fillon/15Fillon-mediumThreeByTwo440.jpg" alt=Eric Feferberg/Agence France-Presse — Getty Images></br>          <b>Caption: </b>François Fillon and his wife Penelope at a campaign rally in January.</br>          </div>')[0];
+                popup_08fe7ed2432c479e803edfed664c49b8.setContent(html_ed05c9edfe944f7fa3a77b760410c1a8);
+            
+
+            marker_24bac928962c45099c6e215b55f2542b.bindPopup(popup_08fe7ed2432c479e803edfed664c49b8);
+
+            
+        
+    
+
+            var marker_3fabef720f1e481ba274d17ec51cc85a = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_a49efffc74d84432892b1ea3d832136b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3fabef720f1e481ba274d17ec51cc85a.setIcon(icon_a49efffc74d84432892b1ea3d832136b);
+            
+    
+            var popup_33c49728e9684effb3f674d33481b041 = L.popup({maxWidth: '450'});
+
+            
+                var html_d5d8d905a99448329bc31e649b59f291 = $('<div id="html_d5d8d905a99448329bc31e649b59f291" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Emmanuel Macron Steps Into France’s Political Void</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: The French former economy minister claims to transcend parties, but by not defining himself, he risks being seen as a candidate who stands for nothing.</br>     <b>link:</b> http://www.nytimes.com/2017/02/13/world/europe/emmanuel-macron-france.html</br>          <img src="https://static01.nyt.com/images/2017/02/13/world/XXMACRON/XXMACRON-mediumThreeByTwo440.jpg" alt=Stephane Mahe/Reuters></br>          <b>Caption: </b>Emmanuel Macron, a candidate for the French presidency, last week at a campaign stop in Montlouis-sur-Loire, near Tours.</br>          </div>')[0];
+                popup_33c49728e9684effb3f674d33481b041.setContent(html_d5d8d905a99448329bc31e649b59f291);
+            
+
+            marker_3fabef720f1e481ba274d17ec51cc85a.bindPopup(popup_33c49728e9684effb3f674d33481b041);
+
+            
+        
+    
+
+            var marker_38a68db9a5e247d38f3b4f12f89de03e = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_967cbbc7aef24efcb1994979c3ba6052 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_38a68db9a5e247d38f3b4f12f89de03e.setIcon(icon_967cbbc7aef24efcb1994979c3ba6052);
+            
+    
+            var popup_81c3109073914b2c9419831f0118b7ca = L.popup({maxWidth: '450'});
+
+            
+                var html_6ac51f7235524014b58ec847686f232f = $('<div id="html_6ac51f7235524014b58ec847686f232f" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Trump May Have Pushed Dutch Voters Away From Populism</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: Britain’s vote to leave the European Union and President Trump’s election lead to uncertainties, one researcher said.</br>     <b>link:</b> http://www.nytimes.com/2017/03/16/world/europe/dutch-election-geert-wilders-europe.html</br>          <img src="https://static01.nyt.com/images/2017/03/17/world/17Netherlands1/17Netherlands1-mediumThreeByTwo440.jpg" alt=Carl Court/Getty Images></br>          <b>Caption: </b>Prime Minister Mark Rutte of the Netherlands gave a victory speech in The Hague on Wednesday.</br>          </div>')[0];
+                popup_81c3109073914b2c9419831f0118b7ca.setContent(html_6ac51f7235524014b58ec847686f232f);
+            
+
+            marker_38a68db9a5e247d38f3b4f12f89de03e.bindPopup(popup_81c3109073914b2c9419831f0118b7ca);
+
+            
+        
+    
+
+            var marker_4c38025cff4e4c148efaa53db4e8335b = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9);
+            
+    
+
+                var icon_fa9f5078d21d4f78bda7f22c5e8575d1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c38025cff4e4c148efaa53db4e8335b.setIcon(icon_fa9f5078d21d4f78bda7f22c5e8575d1);
+            
+    
+            var popup_05deb49c5fcc4a6e92e1ca701e689c93 = L.popup({maxWidth: '450'});
+
+            
+                var html_a564c2a8c8664bd38f8270bcd5d20465 = $('<div id="html_a564c2a8c8664bd38f8270bcd5d20465" style="width: 100.0%; height: 100.0%;"><b>Title: </b>French Election: The 5 Leading Presidential Candidates</br>     <b>Byline:</b> By AURELIEN BREEDEN and BENOÎT MORENNE</br>     <b>Abstract</b>: François Fillon, Benoît Hamon, Emmanuel Macron, Jean-Luc Mélenchon and Marine Le Pen are among those vying to lead the country.</br>     <b>link:</b> http://www.nytimes.com/2017/02/24/world/europe/france-presidential-candidates.html</br>          <img src="https://static01.nyt.com/images/2017/02/25/world/25Frenchcandidates-lepen/25Frenchcandidates-lepen-mediumThreeByTwo440.jpg" alt=Aziz Taher/Reuters></br>          <b>Caption: </b>Marine Le Pen, the National Front candidate, in Beirut, Lebanon, this month.</br>          </div>')[0];
+                popup_05deb49c5fcc4a6e92e1ca701e689c93.setContent(html_a564c2a8c8664bd38f8270bcd5d20465);
+            
+
+            marker_4c38025cff4e4c148efaa53db4e8335b.bindPopup(popup_05deb49c5fcc4a6e92e1ca701e689c93);
+
+            
+        
+    
+            var marker_cluster_b2351524d04f4e848edb7f514912788d = L.markerClusterGroup();
+            map_8f5df5d603c54c56af10a4733fd15e91.addLayer(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+            var marker_38cdab15f36f4584a4c2f2f4a4e65e78 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_372ff1ed133a4cfdb3035e463b69522e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_38cdab15f36f4584a4c2f2f4a4e65e78.setIcon(icon_372ff1ed133a4cfdb3035e463b69522e);
+            
+    
+            var popup_83fcaa852efa405b9ea5d2c6592aa913 = L.popup({maxWidth: '450'});
+
+            
+                var html_fdf3fc0e833c4cbd83d3113ea8c63b8f = $('<div id="html_fdf3fc0e833c4cbd83d3113ea8c63b8f" style="width: 100.0%; height: 100.0%;"><b>Title: </b>President François Hollande of France Won’t Seek Re-election</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: Mr. Hollande stunned the nation with his decision, even though few observers thought he could recover from his poor approval ratings to win next year’s vote.</br>     <b>link:</b> http://www.nytimes.com/2016/12/01/world/europe/president-francois-hollande-of-france-says-he-will-not-run-for-re-election.html</br>          <img src="https://static01.nyt.com/images/2016/12/02/world/02HOLLANDE/02HOLLANDE-mediumThreeByTwo440.jpg" alt=Eric Feferberg/Agence France-Presse — Getty Images></br>          <b>Caption: </b>President François Hollande delivered a televised statement from the Élysée Palace in Paris on Thursday.</br>          </div>')[0];
+                popup_83fcaa852efa405b9ea5d2c6592aa913.setContent(html_fdf3fc0e833c4cbd83d3113ea8c63b8f);
+            
+
+            marker_38cdab15f36f4584a4c2f2f4a4e65e78.bindPopup(popup_83fcaa852efa405b9ea5d2c6592aa913);
+
+            
+        
+    
+
+            var marker_920aba012c5949f8afc55bc5ca6cb105 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_31c895d9cf33417ea61097aec6b9a0bd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_920aba012c5949f8afc55bc5ca6cb105.setIcon(icon_31c895d9cf33417ea61097aec6b9a0bd);
+            
+    
+            var popup_238da13cefc74982b01b4b89e0b4bc47 = L.popup({maxWidth: '450'});
+
+            
+                var html_9c76b561d20c475bb5d393257dd57666 = $('<div id="html_9c76b561d20c475bb5d393257dd57666" style="width: 100.0%; height: 100.0%;"><b>Title: </b>A Candidate Rises on Vows to Control Islam and Immigration. This Time in France.</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: François Fillon’s promises to limit immigration and protect conservative values in France have helped propel him to the front of the presidential field.</br>     <b>link:</b> http://www.nytimes.com/2016/11/25/world/europe/francois-fillon-france-election.html</br>          <img src="https://static01.nyt.com/images/2016/11/26/world/26Fillon3/26Fillon3-mediumThreeByTwo440.jpg" alt=Christophe Archambault/Agence France-Presse — Getty Images></br>          <b>Caption: </b>François Fillon, center, at a campaign event in Paris on Friday.</br>          </div>')[0];
+                popup_238da13cefc74982b01b4b89e0b4bc47.setContent(html_9c76b561d20c475bb5d393257dd57666);
+            
+
+            marker_920aba012c5949f8afc55bc5ca6cb105.bindPopup(popup_238da13cefc74982b01b4b89e0b4bc47);
+
+            
+        
+    
+
+            var marker_ef57f8fbb3034f07878eb05736e7683f = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_fe2aa92dfb7240ca9487dc541940f1f7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ef57f8fbb3034f07878eb05736e7683f.setIcon(icon_fe2aa92dfb7240ca9487dc541940f1f7);
+            
+    
+            var popup_c064fff6d824403883f3749f3a1a6ad9 = L.popup({maxWidth: '450'});
+
+            
+                var html_72071bd08c1a46dd9dead8ae84639b7a = $('<div id="html_72071bd08c1a46dd9dead8ae84639b7a" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Fillon Scandal Indicts, Foremost, France’s Political Elite</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: The presidential candidate François Fillon is in deep trouble over payments to his wife and children. But there is a long history of such cozy arrangements.</br>     <b>link:</b> http://www.nytimes.com/2017/02/03/world/europe/francois-fillon-scandal-france-politics.html</br>          <img src="https://static01.nyt.com/images/2017/02/03/world/03Fillon1/03Fillon1-mediumThreeByTwo440.jpg" alt=Christian Hartmann/Reuters></br>          <b>Caption: </b>The presidential candidate François Fillon in Paris on Tuesday. Mr. Fillon’s nepotism scandal has added another major element of uncertainty to an already unsettled political time.</br>          </div>')[0];
+                popup_c064fff6d824403883f3749f3a1a6ad9.setContent(html_72071bd08c1a46dd9dead8ae84639b7a);
+            
+
+            marker_ef57f8fbb3034f07878eb05736e7683f.bindPopup(popup_c064fff6d824403883f3749f3a1a6ad9);
+
+            
+        
+    
+
+            var marker_3ad16791cc1d4851baf328f3667ef3a1 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_90c125ec00354f81a7b21181ab5a9796 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ad16791cc1d4851baf328f3667ef3a1.setIcon(icon_90c125ec00354f81a7b21181ab5a9796);
+            
+    
+            var popup_1af34360a7fc41ecab4b97d80eccebe3 = L.popup({maxWidth: '450'});
+
+            
+                var html_343e2d0bbf46442aa9a5b0ee41a033ac = $('<div id="html_343e2d0bbf46442aa9a5b0ee41a033ac" style="width: 100.0%; height: 100.0%;"><b>Title: </b>François Fillon, French Presidential Candidate, Faces Formal Investigation</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: After a preliminary inquiry, prosecutors said they had begun a full investigation into whether Mr. Fillon had embezzled public funds.</br>     <b>link:</b> http://www.nytimes.com/2017/02/24/world/europe/france-francois-fillon-investigation.html</br>          <img src="https://static01.nyt.com/images/2017/02/25/world/25Fillon/25Fillon-mediumThreeByTwo440.jpg" alt=Etienne Laurent/European Pressphoto Agency></br>          <b>Caption: </b>François Fillon campaigning on Friday in Paris.</br>          </div>')[0];
+                popup_1af34360a7fc41ecab4b97d80eccebe3.setContent(html_343e2d0bbf46442aa9a5b0ee41a033ac);
+            
+
+            marker_3ad16791cc1d4851baf328f3667ef3a1.bindPopup(popup_1af34360a7fc41ecab4b97d80eccebe3);
+
+            
+        
+    
+
+            var marker_e0975ccc357a4359ad7c660cd672bda1 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_d98da25b64c743fca79cb0effdfbd16a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e0975ccc357a4359ad7c660cd672bda1.setIcon(icon_d98da25b64c743fca79cb0effdfbd16a);
+            
+    
+            var popup_36a4dbb9a9454e1fa58831d6eac16d89 = L.popup({maxWidth: '450'});
+
+            
+                var html_e8dd804f7c1d4aa5bc4b94aa50a5836c = $('<div id="html_e8dd804f7c1d4aa5bc4b94aa50a5836c" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Graft Allegations Grow Against François Fillon, French Presidential Hopeful</br>     <b>Byline:</b> By AURELIEN BREEDEN</br>     <b>Abstract</b>: A newspaper claimed that Mr. Fillon’s wife held a bogus, taxpayer-funded job even longer than initially reported.</br>     <b>link:</b> http://www.nytimes.com/2017/02/01/world/europe/france-francois-fillon-wife.html</br>          <img src="https://static01.nyt.com/images/2017/02/02/world/02France/02Fillon-mediumThreeByTwo440.jpg" alt=Pool photo by Eric Feferberg></br>          <b>Caption: </b>The French presidential candidate François Fillon at a campaign rally on Sunday in Paris.</br>          </div>')[0];
+                popup_36a4dbb9a9454e1fa58831d6eac16d89.setContent(html_e8dd804f7c1d4aa5bc4b94aa50a5836c);
+            
+
+            marker_e0975ccc357a4359ad7c660cd672bda1.bindPopup(popup_36a4dbb9a9454e1fa58831d6eac16d89);
+
+            
+        
+    
+
+            var marker_7082fe54f0d24537aa3de04a74c310f9 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_d428544d4d104dddb2fed7d5460555bf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7082fe54f0d24537aa3de04a74c310f9.setIcon(icon_d428544d4d104dddb2fed7d5460555bf);
+            
+    
+            var popup_07e9314bbd8f4891b1935b6609e31675 = L.popup({maxWidth: '450'});
+
+            
+                var html_f0e0b5aeb5e44a698b1f0f536a996bac = $('<div id="html_f0e0b5aeb5e44a698b1f0f536a996bac" style="width: 100.0%; height: 100.0%;"><b>Title: </b>François Fillon Blames ‘Media Lynching’ for His Campaign Crisis</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: Mr. Fillon, the center-right candidate in France’s presidential race, called a news conference to defend paying his wife hundreds of thousands of euros.</br>     <b>link:</b> http://www.nytimes.com/2017/02/06/world/europe/franois-fillon-france-election.html</br>          <img src="https://static01.nyt.com/images/2017/02/07/world/07fillon1/07fillon1-mediumThreeByTwo440.jpg" alt=Pool photo by Philippe Wojazer></br>          <b>Caption: </b>François Fillon, right, at his combative news conference in Paris on Monday.</br>          </div>')[0];
+                popup_07e9314bbd8f4891b1935b6609e31675.setContent(html_f0e0b5aeb5e44a698b1f0f536a996bac);
+            
+
+            marker_7082fe54f0d24537aa3de04a74c310f9.bindPopup(popup_07e9314bbd8f4891b1935b6609e31675);
+
+            
+        
+    
+
+            var marker_fbcaf7756a7346658fd13d612ab7e06b = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_3f9ec3c72a2842d7a062f6c266f4f6ea = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fbcaf7756a7346658fd13d612ab7e06b.setIcon(icon_3f9ec3c72a2842d7a062f6c266f4f6ea);
+            
+    
+            var popup_7202c541ad9b4ed18cb456f013ea75e2 = L.popup({maxWidth: '450'});
+
+            
+                var html_5ed76b61e48b43dfbe0a6fcac728671b = $('<div id="html_5ed76b61e48b43dfbe0a6fcac728671b" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Benoît Hamon Wins French Socialist Party’s Presidential Nomination</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: Mr. Hamon’s strong showing is unlikely to change widespread assessments that left-leaning candidates have little chance of succeeding in this spring’s general election.</br>     <b>link:</b> http://www.nytimes.com/2017/01/29/world/europe/benot-hamon-french-socialists-presidential-primary.html</br>          <img src="https://static01.nyt.com/images/2017/01/30/world/FRANCE1/FRANCE1-mediumThreeByTwo440.jpg" alt=Francois Mori/Associated Press></br>          <b>Caption: </b>Supporters of Beno&icirc;t Hamon reacted after he won the Socialist Party presidential nomination in Paris on Sunday.</br>          </div>')[0];
+                popup_7202c541ad9b4ed18cb456f013ea75e2.setContent(html_5ed76b61e48b43dfbe0a6fcac728671b);
+            
+
+            marker_fbcaf7756a7346658fd13d612ab7e06b.bindPopup(popup_7202c541ad9b4ed18cb456f013ea75e2);
+
+            
+        
+    
+
+            var marker_492e520b8b9f421f87531f749e8bc1ce = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_6bfdcb2b54f94c379da14f62f701e4b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_492e520b8b9f421f87531f749e8bc1ce.setIcon(icon_6bfdcb2b54f94c379da14f62f701e4b5);
+            
+    
+            var popup_8166969adf9e445ca1e5bea6913a2591 = L.popup({maxWidth: '450'});
+
+            
+                var html_8e34592345924ceeb13523370afac72b = $('<div id="html_8e34592345924ceeb13523370afac72b" style="width: 100.0%; height: 100.0%;"><b>Title: </b>A French Minister Who Attracts Applause and Anger Considers a Bigger Stage</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: Emmanuel Macron has started what many consider a campaign in all but name to explore whether to challenge François Hollande as the Socialist candidate for president.</br>     <b>link:</b> http://www.nytimes.com/2016/06/10/world/europe/emmanuel-macron-france-en-marche.html</br>          <img src="https://static01.nyt.com/images/2016/06/08/world/08macron-web1/07macron-web1-mediumThreeByTwo440.jpg" alt=Etienne Laurent/European Pressphoto Agency></br>          <b>Caption: </b>Emmanuel Macron, center, the French economy minister, with José Ángel Gurría, left, secretary general of the Organization for Economic Cooperation and Development, at a meeting this month in Paris.</br>          </div>')[0];
+                popup_8166969adf9e445ca1e5bea6913a2591.setContent(html_8e34592345924ceeb13523370afac72b);
+            
+
+            marker_492e520b8b9f421f87531f749e8bc1ce.bindPopup(popup_8166969adf9e445ca1e5bea6913a2591);
+
+            
+        
+    
+
+            var marker_67452881bbbd49fb9a6cd9751f6be9cb = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_f67ed51bd1b8469387d7cb3cdeb560f3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_67452881bbbd49fb9a6cd9751f6be9cb.setIcon(icon_f67ed51bd1b8469387d7cb3cdeb560f3);
+            
+    
+            var popup_60773c323b18455c9ff25e7ede4d7ee0 = L.popup({maxWidth: '450'});
+
+            
+                var html_3aaae3dc99ed46e587b88ddf1283aa92 = $('<div id="html_3aaae3dc99ed46e587b88ddf1283aa92" style="width: 100.0%; height: 100.0%;"><b>Title: </b>After Trump Win, Parallel Path Is Seen for Marine Le Pen of France’s Far Right</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: “It’s the emergence of a new world,” said Ms. Le Pen, the leader of the National Front party. “It’s the end of the 20th century.”</br>     <b>link:</b> http://www.nytimes.com/2016/11/12/world/europe/donald-trump-marine-le-pen.html</br>          <img src="https://static01.nyt.com/images/2016/11/12/world/12lepen/12lepen-mediumThreeByTwo440.jpg" alt=Yoan Valat/European Pressphoto Agency></br>          <b>Caption: </b>Marine Le Pen spoke about the results of the American presidential election in Nanterre, near Paris.</br>          </div>')[0];
+                popup_60773c323b18455c9ff25e7ede4d7ee0.setContent(html_3aaae3dc99ed46e587b88ddf1283aa92);
+            
+
+            marker_67452881bbbd49fb9a6cd9751f6be9cb.bindPopup(popup_60773c323b18455c9ff25e7ede4d7ee0);
+
+            
+        
+    
+
+            var marker_06d0967bb24e46539b879f5c93d8ef34 = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_2702b226d5d543a19573a1bea02fceb4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06d0967bb24e46539b879f5c93d8ef34.setIcon(icon_2702b226d5d543a19573a1bea02fceb4);
+            
+    
+            var popup_c31caaf757964b50b23fe00a8ad7ab98 = L.popup({maxWidth: '450'});
+
+            
+                var html_f2b235542fa54ade86f484a972f9600b = $('<div id="html_f2b235542fa54ade86f484a972f9600b" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Dutch Vote Watched Across Europe With a Finger in the Wind</br>     <b>Byline:</b> By ALISSA J. RUBIN and CHRISTOPHER F. SCHUETZE</br>     <b>Abstract</b>: The vote Wednesday is a key gauge of whether, in a time of growing nationalism, once-strong barriers to the far right still stand on the Continent.</br>     <b>link:</b> http://www.nytimes.com/2017/03/15/world/europe/dutch-vote-watched-across-europe-with-a-finger-in-the-wind.html</br>          <img src="https://static01.nyt.com/images/2017/03/15/world/15Netherlands1/15Netherlands1-mediumThreeByTwo440.jpg" alt=Robin Utrecht/European Pressphoto Agency></br>          <b>Caption: </b>The last preparations in a polling station at a school in Rotterdam a day before parliamentary elections in the Netherlands.</br>          </div>')[0];
+                popup_c31caaf757964b50b23fe00a8ad7ab98.setContent(html_f2b235542fa54ade86f484a972f9600b);
+            
+
+            marker_06d0967bb24e46539b879f5c93d8ef34.bindPopup(popup_c31caaf757964b50b23fe00a8ad7ab98);
+
+            
+        
+    
+
+            var marker_a6fef4ac1836444f8ca231f576ca18b2 = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_d8c51bf2c15d4eda850c62b16cbe2a98 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6fef4ac1836444f8ca231f576ca18b2.setIcon(icon_d8c51bf2c15d4eda850c62b16cbe2a98);
+            
+    
+            var popup_fb6697b6138d4169be08e94a44593b2a = L.popup({maxWidth: '450'});
+
+            
+                var html_0965c06d77d244508b31ed282fdb03af = $('<div id="html_0965c06d77d244508b31ed282fdb03af" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Netherlands Considers a New Relationship to Muslims With Coming Election</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: This week’s elections in the Netherlands will begin Europe’s year of political reckoning, as countries contend with waves of populism and anti-Muslim sentiment.</br>     <b>link:</b> http://www.nytimes.com/2017/03/13/world/europe/netherlands-election-muslims.html</br>          <img src="https://static01.nyt.com/images/2017/03/14/world/13dutch-span/13dutch-span-mediumThreeByTwo440.jpg" alt=Ilvy Njiokiktjien for The New York Times></br>          <b>Caption: </b>The market in the city center of Almere, a Dutch city home to immigrants from 153 nationalities. </br>          </div>')[0];
+                popup_fb6697b6138d4169be08e94a44593b2a.setContent(html_0965c06d77d244508b31ed282fdb03af);
+            
+
+            marker_a6fef4ac1836444f8ca231f576ca18b2.bindPopup(popup_fb6697b6138d4169be08e94a44593b2a);
+
+            
+        
+    
+
+            var marker_63d10f0494b54e08930819b7df440a4a = L.marker(
+                [51.9166666699999979073254507966339588165283203125,4.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_1fe9219c58fc4be2b9e68fd3f3fedd43 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63d10f0494b54e08930819b7df440a4a.setIcon(icon_1fe9219c58fc4be2b9e68fd3f3fedd43);
+            
+    
+            var popup_18f74655e0f14260bac903b4f4fef446 = L.popup({maxWidth: '450'});
+
+            
+                var html_389946638b0a41958e7567595e1f53bf = $('<div id="html_389946638b0a41958e7567595e1f53bf" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Netherlands Considers a New Relationship to Muslims With Coming Election</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: This week’s elections in the Netherlands will begin Europe’s year of political reckoning, as countries contend with waves of populism and anti-Muslim sentiment.</br>     <b>link:</b> http://www.nytimes.com/2017/03/13/world/europe/netherlands-election-muslims.html</br>          <img src="https://static01.nyt.com/images/2017/03/14/world/13dutch-span/13dutch-span-mediumThreeByTwo440.jpg" alt=Ilvy Njiokiktjien for The New York Times></br>          <b>Caption: </b>The market in the city center of Almere, a Dutch city home to immigrants from 153 nationalities. </br>          </div>')[0];
+                popup_18f74655e0f14260bac903b4f4fef446.setContent(html_389946638b0a41958e7567595e1f53bf);
+            
+
+            marker_63d10f0494b54e08930819b7df440a4a.bindPopup(popup_18f74655e0f14260bac903b4f4fef446);
+
+            
+        
+    
+
+            var marker_63143a8b2f4247a5a89b7ac67588dc5c = L.marker(
+                [52.0833333300000020926745492033660411834716796875,4.316666670000000038953658076934516429901123046875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_f9566e86c08e4f9b81c71463b62f1a7c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63143a8b2f4247a5a89b7ac67588dc5c.setIcon(icon_f9566e86c08e4f9b81c71463b62f1a7c);
+            
+    
+            var popup_4a88ee75ae5445c39158bc91a35da920 = L.popup({maxWidth: '450'});
+
+            
+                var html_a7acd5a223dd4d3b85cdef01b40fc827 = $('<div id="html_a7acd5a223dd4d3b85cdef01b40fc827" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Netherlands Considers a New Relationship to Muslims With Coming Election</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: This week’s elections in the Netherlands will begin Europe’s year of political reckoning, as countries contend with waves of populism and anti-Muslim sentiment.</br>     <b>link:</b> http://www.nytimes.com/2017/03/13/world/europe/netherlands-election-muslims.html</br>          <img src="https://static01.nyt.com/images/2017/03/14/world/13dutch-span/13dutch-span-mediumThreeByTwo440.jpg" alt=Ilvy Njiokiktjien for The New York Times></br>          <b>Caption: </b>The market in the city center of Almere, a Dutch city home to immigrants from 153 nationalities. </br>          </div>')[0];
+                popup_4a88ee75ae5445c39158bc91a35da920.setContent(html_a7acd5a223dd4d3b85cdef01b40fc827);
+            
+
+            marker_63143a8b2f4247a5a89b7ac67588dc5c.bindPopup(popup_4a88ee75ae5445c39158bc91a35da920);
+
+            
+        
+    
+
+            var marker_55b7e6f1047e4674a787ebc43e89cdf7 = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_abb91a22714843d8bd05ba5db9d5dd57 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55b7e6f1047e4674a787ebc43e89cdf7.setIcon(icon_abb91a22714843d8bd05ba5db9d5dd57);
+            
+    
+            var popup_1dad19d488974972b8bd34188721dbd2 = L.popup({maxWidth: '450'});
+
+            
+                var html_141f6c452a004c26afc8e9a196dad887 = $('<div id="html_141f6c452a004c26afc8e9a196dad887" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Geert Wilders, Reclusive Provocateur, Rises Before Dutch Vote</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: How Mr. Wilders and his party fare in March 15 elections in the Netherlands could indicate the strength of the far right elsewhere in Europe.</br>     <b>link:</b> http://www.nytimes.com/2017/02/27/world/europe/geert-wilders-reclusive-provocateur-rises-before-dutch-vote.html</br>          <img src="https://static01.nyt.com/images/2017/02/28/world/28Wilders01/28Wilders01-mediumThreeByTwo440.jpg" alt=Sergey Ponomarev for The New York Times></br>          <b>Caption: </b>Geert Wilders, center, a far-right icon and one-man political party of the Netherlands, greeting supporters during a campaign stop in Spijkenisse this month.</br>          </div>')[0];
+                popup_1dad19d488974972b8bd34188721dbd2.setContent(html_141f6c452a004c26afc8e9a196dad887);
+            
+
+            marker_55b7e6f1047e4674a787ebc43e89cdf7.bindPopup(popup_1dad19d488974972b8bd34188721dbd2);
+
+            
+        
+    
+
+            var marker_fb540cbf980e42ea9dc138bbc0192c24 = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_a618d0f6e69f453789631ba00c97fcb0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb540cbf980e42ea9dc138bbc0192c24.setIcon(icon_a618d0f6e69f453789631ba00c97fcb0);
+            
+    
+            var popup_9f469f20fd034d7d8bd6ac374edc6cde = L.popup({maxWidth: '450'});
+
+            
+                var html_f63208cad4b94193a8a42e93d6162e47 = $('<div id="html_f63208cad4b94193a8a42e93d6162e47" style="width: 100.0%; height: 100.0%;"><b>Title: </b>‘A Broader View’ vs. ‘An Invasion’: Dutch Voters Speak Out on Immigration</br>     <b>Byline:</b> By PALKO KARASZ</br>     <b>Abstract</b>: In the midst of a raucous campaign, we asked readers in the Netherlands to tell us how immigration had affected their lives and shaped their political beliefs.</br>     <b>link:</b> http://www.nytimes.com/2017/03/10/world/europe/netherlands-election-immigration.html</br>          <img src="https://static01.nyt.com/images/2017/03/09/world/09Netherland-immigration/09Netherland-immigration-mediumThreeByTwo440.jpg" alt=Ilvy Njiokiktjien for The New York Times></br>          <b>Caption: </b>The city center of Amsterdam.</br>          </div>')[0];
+                popup_9f469f20fd034d7d8bd6ac374edc6cde.setContent(html_f63208cad4b94193a8a42e93d6162e47);
+            
+
+            marker_fb540cbf980e42ea9dc138bbc0192c24.bindPopup(popup_9f469f20fd034d7d8bd6ac374edc6cde);
+
+            
+        
+    
+
+            var marker_6202b9ac4a5c4ec2803cd1926e8c7711 = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_1314f35cb4134b86ad4a8e635c1576c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6202b9ac4a5c4ec2803cd1926e8c7711.setIcon(icon_1314f35cb4134b86ad4a8e635c1576c8);
+            
+    
+            var popup_42ed9766fff443459edba74d3ce299a9 = L.popup({maxWidth: '450'});
+
+            
+                var html_b31883f5ff414c00aaa333135791d821 = $('<div id="html_b31883f5ff414c00aaa333135791d821" style="width: 100.0%; height: 100.0%;"><b>Title: </b>How the Dutch Stopped Being Decent and Dull</br>     <b>Byline:</b> By IAN BURUMA</br>     <b>Abstract</b>: The right-wing populist Geert Wilders is set to overturn the Netherlands’ liberal reputation.</br>     <b>link:</b> http://www.nytimes.com/2017/03/10/opinion/sunday/how-the-dutch-stopped-being-decent-and-dull.html</br>          <img src="https://static01.nyt.com/images/2017/03/12/opinion/sunday/12buruma/12buruma-mediumThreeByTwo440-v2.jpg" alt=Emmanuel Dunand/Agence France-Presse &mdash; Getty Images></br>          <b>Caption: </b>Geert Wilders spoke to journalists during a protest in front of the Turkish embassy at The Hague in March.</br>          </div>')[0];
+                popup_42ed9766fff443459edba74d3ce299a9.setContent(html_b31883f5ff414c00aaa333135791d821);
+            
+
+            marker_6202b9ac4a5c4ec2803cd1926e8c7711.bindPopup(popup_42ed9766fff443459edba74d3ce299a9);
+
+            
+        
+    
+
+            var marker_59ddd8a923b44324a417b0dc9160af2b = L.marker(
+                [52.31666666999999648623997927643358707427978515625,5.54999999999999982236431605997495353221893310546875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_b2351524d04f4e848edb7f514912788d);
+            
+    
+
+                var icon_7a8480af40a8492781c934d8af112c51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59ddd8a923b44324a417b0dc9160af2b.setIcon(icon_7a8480af40a8492781c934d8af112c51);
+            
+    
+            var popup_ebdd9f6c2a44426db4b5487c7af8b6cb = L.popup({maxWidth: '450'});
+
+            
+                var html_63a8a2b630ab4aa88d72ff07f17f4db3 = $('<div id="html_63a8a2b630ab4aa88d72ff07f17f4db3" style="width: 100.0%; height: 100.0%;"><b>Title: </b>Geert Wilders Falls Short in Election, as Wary Dutch Scatter Their Votes</br>     <b>Byline:</b> By ALISSA J. RUBIN</br>     <b>Abstract</b>: Voters turned out in record numbers, and rewarded right and center-right parties that had co-opted parts of Mr. Wilders’s message.</br>     <b>link:</b> http://www.nytimes.com/2017/03/15/world/europe/geert-wilders-netherlands-far-right-vote.html</br>          <img src="https://static01.nyt.com/images/2017/03/13/world/00wilders-video/00wilders-video-mediumThreeByTwo440.jpg" alt=Bart Maat/Agence France-Presse — Getty Images></br>          <b>Caption: </b></br>          </div>')[0];
+                popup_ebdd9f6c2a44426db4b5487c7af8b6cb.setContent(html_63a8a2b630ab4aa88d72ff07f17f4db3);
+            
+
+            marker_59ddd8a923b44324a417b0dc9160af2b.bindPopup(popup_ebdd9f6c2a44426db4b5487c7af8b6cb);
+
+            
+        
+    
+
+            var marker_a41ecb48ce4e435bb13c27b0ac855fe0 = L.marker(
+                [47,2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+            
+    
+            var popup_9522a30b8a404266949c83cd6335893b = L.popup({maxWidth: '450'});
+
+            
+                var html_54cad149898644af9ae2bca39f94a548 = $('<div id="html_54cad149898644af9ae2bca39f94a548" style="width: 100.0%; height: 100.0%;"><b>Title: </b>As French Election Nears, Le Pen Targets Voters Her Party Once Repelled</br>     <b>Byline:</b> By ADAM NOSSITER</br>     <b>Abstract</b>: A traditional distaste for the far-right National Front may be softening, leaving it in the best position in its 45-year history.</br>     <b>link:</b> http://www.nytimes.com/2017/03/19/world/europe/french-election-marine-le-pen-national-front.html</br>          <img src="https://static01.nyt.com/images/2017/03/18/world/00Front1/00Front1-mediumThreeByTwo440.jpg" alt=Dmitry Kostyukov for The New York Times></br>          <b>Caption: </b>Marine Le Pen’s rally in Saint-Raphaël last week.</br>          </div>')[0];
+                popup_9522a30b8a404266949c83cd6335893b.setContent(html_54cad149898644af9ae2bca39f94a548);
+            
+
+            marker_a41ecb48ce4e435bb13c27b0ac855fe0.bindPopup(popup_9522a30b8a404266949c83cd6335893b);
+
+            
+        
+    
+            var tile_layer_1c73da977cc9421e9a8d9ea42d4b9185 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+
+        
+    
+            var tile_layer_cac3b70bb78a454789aec5c3fb161d81 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+
+        
+    
+            var tile_layer_a141ff6354ee4261a29512429813a070 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.control-room/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+
+        
+    
+            var tile_layer_431f3e9efc6d4755a865afcdd8b1c459 = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: '(c) <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (c) <a href="http://cartodb.com/attributions">CartoDB</a>, CartoDB <a href ="http://cartodb.com/attributions">attributions</a>',
+                    detectRetina: false
+                    }
+                ).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+
+        
+    
+            var layer_control_b20715519f4f4445b8da6f794eb9a5d9 = {
+                base_layers : { "stamenwatercolor" : tile_layer_4625616301fe44c9b06f7a6789fc5157,"openstreetmap" : tile_layer_1c73da977cc9421e9a8d9ea42d4b9185,"stamentoner" : tile_layer_cac3b70bb78a454789aec5c3fb161d81,"mapboxcontrolroom" : tile_layer_a141ff6354ee4261a29512429813a070,"cartodbpositron" : tile_layer_431f3e9efc6d4755a865afcdd8b1c459, },
+                overlays : { "macro_element_025f8d9c2bec4832b4d2d0619f7272f9" : marker_cluster_025f8d9c2bec4832b4d2d0619f7272f9,"macro_element_b2351524d04f4e848edb7f514912788d" : marker_cluster_b2351524d04f4e848edb7f514912788d, }
+                };
+            L.control.layers(
+                layer_control_b20715519f4f4445b8da6f794eb9a5d9.base_layers,
+                layer_control_b20715519f4f4445b8da6f794eb9a5d9.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_8f5df5d603c54c56af10a4733fd15e91);
+        
+</script>
