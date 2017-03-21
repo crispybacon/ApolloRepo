@@ -1,12 +1,12 @@
 import requests, json, re, folium, datetime, pymongo
 NYTkeys = {
     'mostPopular':'',
-    'books':'ded3fc086615425c8fd286b62c7b1e2a',
-    'geographic':'ded3fc086615425c8fd286b62c7b1e2a',
-    'Semantic':'ded3fc086615425c8fd286b62c7b1e2a',
-    'topStories':'ded3fc086615425c8fd286b62c7b1e2a',
-    'articleSearch':'ded3fc086615425c8fd286b62c7b1e2a',
-    'newsWire':'ded3fc086615425c8fd286b62c7b1e2a',
+    'books':'',
+    'geographic':'',
+    'Semantic':'',
+    'topStories':'',
+    'articleSearch':'',
+    'newsWire':'',
 }
 NYTRoot = 'https://api.nytimes.com/svc/'
 NYTEndPoints = {
