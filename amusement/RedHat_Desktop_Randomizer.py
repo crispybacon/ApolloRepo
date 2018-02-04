@@ -35,7 +35,7 @@ def write_transitions(duration, image_path, image_list, xml_file):
             img = image_path + img
             transition = '''
     <transition type="fade">
-        <duration>2.0</duration>
+        <duration>3.0</duration>
         <from>{}</from>
         <to>{}</to>
     </transition>
