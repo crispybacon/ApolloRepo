@@ -1,5 +1,5 @@
 import os, random, shutil
-custom_image_directory = '/usr/share/backgrounds/kiosk/'
+custom_image_directory = '/usr/share/backgrounds/'
 def open_xml_file(file_name):
     file_start = '''<background>
     <starttime>
@@ -35,7 +35,7 @@ def write_transitions(duration, image_path, image_list, xml_file):
             img = image_path + img
             transition = '''
     <transition type="fade">
-        <duration>5.0</duration>
+        <duration>2.0</duration>
         <from>{}</from>
         <to>{}</to>
     </transition>
@@ -59,5 +59,5 @@ def copyXML(xml_file, custom_kiosk_directory):
     shutil.copy(xml_file, custom_image_directory)
 
 if __name__ == '__main__':
-    update_backgrounds(custom_image_directory, 'kiosk.xml', 300)
-    copyXML('kiosk.xml', custom_image_directory)
+    update_backgrounds(custom_image_directory, 'default.xml', 300)
+    copyXML('default.xml', custom_image_directory)
