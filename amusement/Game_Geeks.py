@@ -1,6 +1,7 @@
 import requests,re,random,time,os
 import matplotlib.pyplot as plt
 from nltk import word_tokenize, sent_tokenize
+from matplotlib.widgets import TextBox
 
 site_root = 'https://www.boardgamegeek.com/xmlapi2/'
 
@@ -49,7 +50,7 @@ def beginnerText(txt):
         time.sleep(0.35)
 
 def showPic(pic):
-    plt.figure(frameon=False, figsize=(12,12))
+    plt.figure(frameon=False, figsize=(8,8))
     plt.imshow(plt.imread('game_pic.jpg'))
     plt.axis('off')
     plt.show(block=False)

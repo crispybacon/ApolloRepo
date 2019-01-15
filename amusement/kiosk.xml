@@ -1,0 +1,1535 @@
+<background>
+    <starttime>
+        <year>2010</year>
+        <month>03</month>
+        <day>01</day>
+        <hour>07</hour>
+        <minute>00</minute>
+        <second>00</second>
+    </starttime>
+    
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/12931168_998848986865541_3000799942175361189_n.jpg</file>
+    </static>
+    
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/12931168_998848986865541_3000799942175361189_n.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/DSC_1116.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/DSC_1116.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/DSC_1116.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/IMG_0284.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/IMG_0284.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/IMG_0284.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/6a0128765be845970c0133f418ce9e970b-pi.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/6a0128765be845970c0133f418ce9e970b-pi.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/6a0128765be845970c0133f418ce9e970b-pi.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/03990_000_bible-photo-8.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/03990_000_bible-photo-8.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/03990_000_bible-photo-8.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/nFSCkl6.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/nFSCkl6.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/nFSCkl6.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/imm_02_3d.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/imm_02_3d.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/imm_02_3d.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/630-3.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/630-3.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/630-3.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/kim1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/kim1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/kim1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/louvre_pyramid3042.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/louvre_pyramid3042.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/louvre_pyramid3042.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/greece.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/greece.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/greece.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/12963539_998848980198875_7293031920413492664_n.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/12963539_998848980198875_7293031920413492664_n.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/12963539_998848980198875_7293031920413492664_n.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/i-m-pei-1.png</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/i-m-pei-1.png</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/i-m-pei-1.png</from>
+        <to>/usr/share/backgrounds/kiosk/CUPOLA SAN PIETRO - INTERNO.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/CUPOLA SAN PIETRO - INTERNO.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/CUPOLA SAN PIETRO - INTERNO.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/FallenLeaves-web.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/FallenLeaves-web.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/FallenLeaves-web.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Mudam_Aschman_1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Mudam_Aschman_1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Mudam_Aschman_1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/nikola-olic-i.m.-pei-dallas-broken.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/nikola-olic-i.m.-pei-dallas-broken.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/nikola-olic-i.m.-pei-dallas-broken.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Deutsches.Historisches.Museum.original.22512.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Deutsches.Historisches.Museum.original.22512.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Deutsches.Historisches.Museum.original.22512.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/0919_jerusalem10[1].jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/0919_jerusalem10[1].jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/0919_jerusalem10[1].jpg</from>
+        <to>/usr/share/backgrounds/kiosk/02-WilshireBlvdTemple.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/02-WilshireBlvdTemple.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/02-WilshireBlvdTemple.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/tumblr_m2j1p6JP5J1rntkg5o1_1280.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/tumblr_m2j1p6JP5J1rntkg5o1_1280.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/tumblr_m2j1p6JP5J1rntkg5o1_1280.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/uba32a1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/uba32a1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/uba32a1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/12963723_998848983532208_248368229872592401_n.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/12963723_998848983532208_248368229872592401_n.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/12963723_998848983532208_248368229872592401_n.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem_sky.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem_sky.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem_sky.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 1.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 1.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 1.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/N3z5Gm9.jpg.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/N3z5Gm9.jpg.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/N3z5Gm9.jpg.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/b023470227f82d92f0b602672aeda6d8_large.jpeg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/b023470227f82d92f0b602672aeda6d8_large.jpeg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/b023470227f82d92f0b602672aeda6d8_large.jpeg</from>
+        <to>/usr/share/backgrounds/kiosk/Sydney_Opera_House_Sails_edit02_adj.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Sydney_Opera_House_Sails_edit02_adj.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Sydney_Opera_House_Sails_edit02_adj.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/tumblr_ljccfmQZPT1qbn5m1o1_500.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/tumblr_ljccfmQZPT1qbn5m1o1_500.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/tumblr_ljccfmQZPT1qbn5m1o1_500.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/18224722_ml.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/18224722_ml.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/18224722_ml.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/VWF05231.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/VWF05231.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/VWF05231.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/0402042126_9.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/0402042126_9.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/0402042126_9.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/JerusalemBest1-Flavio.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/JerusalemBest1-Flavio.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/JerusalemBest1-Flavio.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Jerusalem Skyline Photo.bmp</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Jerusalem Skyline Photo.bmp</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Jerusalem Skyline Photo.bmp</from>
+        <to>/usr/share/backgrounds/kiosk/paris-la-defense-la-grande-arche-de-la-defense-11.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/paris-la-defense-la-grande-arche-de-la-defense-11.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/paris-la-defense-la-grande-arche-de-la-defense-11.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1817127e01dda3c8feb50b68e51e598b.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1817127e01dda3c8feb50b68e51e598b.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1817127e01dda3c8feb50b68e51e598b.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/portlajoye_amherst_2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/portlajoye_amherst_2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/portlajoye_amherst_2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Sofia_Bulgaria_Synagogue_exterior_photo_S_Gruber 4-7-2006 6-35-12 AM.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Sofia_Bulgaria_Synagogue_exterior_photo_S_Gruber 4-7-2006 6-35-12 AM.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Sofia_Bulgaria_Synagogue_exterior_photo_S_Gruber 4-7-2006 6-35-12 AM.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Louvre_pavilion.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Louvre_pavilion.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Louvre_pavilion.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/Basilica S. Pietro DSC_8824.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Basilica S. Pietro DSC_8824.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Basilica S. Pietro DSC_8824.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem08-2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem08-2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem08-2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/John_F_Kennedy_Presidential_Library_and_Museum_Boston.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/John_F_Kennedy_Presidential_Library_and_Museum_Boston.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/John_F_Kennedy_Presidential_Library_and_Museum_Boston.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/boston_may_2012_metroscenes.com_23.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/boston_may_2012_metroscenes.com_23.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/boston_may_2012_metroscenes.com_23.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/tumblr_m17knioN8v1r5xri2o1_500.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/tumblr_m17knioN8v1r5xri2o1_500.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/tumblr_m17knioN8v1r5xri2o1_500.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/galeria_miasteczko_synagoga.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/galeria_miasteczko_synagoga.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/galeria_miasteczko_synagoga.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/6vnm6nH4lzbS-aBsUZJ1UTegfpQ.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/6vnm6nH4lzbS-aBsUZJ1UTegfpQ.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/6vnm6nH4lzbS-aBsUZJ1UTegfpQ.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/image.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/image.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/image.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/VWF0520.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/VWF0520.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/VWF0520.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/The-Facade-By-Night.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/The-Facade-By-Night.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/The-Facade-By-Night.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/astonishing-asian-structures-bank-of-china-skyline.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/astonishing-asian-structures-bank-of-china-skyline.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/astonishing-asian-structures-bank-of-china-skyline.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/POLIN_Museum_Street_View_5.png</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/POLIN_Museum_Street_View_5.png</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/POLIN_Museum_Street_View_5.png</from>
+        <to>/usr/share/backgrounds/kiosk/Museum_of_Islamic_Arts.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Museum_of_Islamic_Arts.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Museum_of_Islamic_Arts.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/20110320190020_jerusalem-mosque.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/20110320190020_jerusalem-mosque.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/20110320190020_jerusalem-mosque.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/i-m-pei-rock-by-rockhalldotcom.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/i-m-pei-rock-by-rockhalldotcom.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/i-m-pei-rock-by-rockhalldotcom.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/besalu.Micvé-1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/besalu.Micvé-1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/besalu.Micvé-1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1339720059-mainimage-1002-01-01-sc-v2com.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1339720059-mainimage-1002-01-01-sc-v2com.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1339720059-mainimage-1002-01-01-sc-v2com.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/bigstock-View-to-Jerusalem-old-city-Is-76220969-SMALL-1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/bigstock-View-to-Jerusalem-old-city-Is-76220969-SMALL-1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/bigstock-View-to-Jerusalem-old-city-Is-76220969-SMALL-1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 3.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 3.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/PA, Harrisburg - Beth El 3.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/Sinagoga_di_firenze,_interno,_cupola_02.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Sinagoga_di_firenze,_interno,_cupola_02.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Sinagoga_di_firenze,_interno,_cupola_02.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/chicagoathleticsassochotel-hartshorneplunkard-hero.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/chicagoathleticsassochotel-hartshorneplunkard-hero.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/chicagoathleticsassochotel-hartshorneplunkard-hero.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/06_2013_WILSHIRE_BLVD_TEMPLE-10.0.0.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/06_2013_WILSHIRE_BLVD_TEMPLE-10.0.0.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/06_2013_WILSHIRE_BLVD_TEMPLE-10.0.0.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/p03l28xr.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/p03l28xr.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/p03l28xr.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Museum-Of-Islamic-Art-Doha_1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Museum-Of-Islamic-Art-Doha_1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Museum-Of-Islamic-Art-Doha_1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/11_ham_renzo_piano_drawings_popup.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/11_ham_renzo_piano_drawings_popup.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/11_ham_renzo_piano_drawings_popup.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/cornell.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/cornell.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/cornell.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem_night.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem_night.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem_night.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/VWF0523.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/VWF0523.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/VWF0523.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/4..jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/4..jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/4..jpg</from>
+        <to>/usr/share/backgrounds/kiosk/mudam-florian-meyer.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/mudam-florian-meyer.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/mudam-florian-meyer.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/xJER-Films-Stills-TL-Tower_Of_David_blue_0001.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/xJER-Films-Stills-TL-Tower_Of_David_blue_0001.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/xJER-Films-Stills-TL-Tower_Of_David_blue_0001.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/museum-mudam-von-i-m-pei-luxembourgh-by-johann-juergen-mohr.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/museum-mudam-von-i-m-pei-luxembourgh-by-johann-juergen-mohr.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/museum-mudam-von-i-m-pei-luxembourgh-by-johann-juergen-mohr.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Centro_de_Ciencia,_Macao,_2013-08-08,_DD_09.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Centro_de_Ciencia,_Macao,_2013-08-08,_DD_09.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Centro_de_Ciencia,_Macao,_2013-08-08,_DD_09.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/2011-07-03-Spain4.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/2011-07-03-Spain4.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/2011-07-03-Spain4.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Estatua_de_Guan_Yin,_Macao,_2013-08-08,_DD_08.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Estatua_de_Guan_Yin,_Macao,_2013-08-08,_DD_08.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Estatua_de_Guan_Yin,_Macao,_2013-08-08,_DD_08.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1380058173la-et-disney-hall-day-photo.jpeg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1380058173la-et-disney-hall-day-photo.jpeg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1380058173la-et-disney-hall-day-photo.jpeg</from>
+        <to>/usr/share/backgrounds/kiosk/3.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/3.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/3.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem1-large.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem1-large.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem1-large.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Boston and SF.png</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Boston and SF.png</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Boston and SF.png</from>
+        <to>/usr/share/backgrounds/kiosk/12931168_998848986865541_3000799942175361189_n2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/12931168_998848986865541_3000799942175361189_n2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/12931168_998848986865541_3000799942175361189_n2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/106238_f2656759acd895dc8a95afb42a5b584d_large.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/106238_f2656759acd895dc8a95afb42a5b584d_large.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/106238_f2656759acd895dc8a95afb42a5b584d_large.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Windmill-Jerusalem-Israel-cr-naom-chen-e1444721364815.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Windmill-Jerusalem-Israel-cr-naom-chen-e1444721364815.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Windmill-Jerusalem-Israel-cr-naom-chen-e1444721364815.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Calder-mobile_2216.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Calder-mobile_2216.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Calder-mobile_2216.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/20120428_095023.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/20120428_095023.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/20120428_095023.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Sydney-Opera-House.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Sydney-Opera-House.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Sydney-Opera-House.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/630.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/630.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/630.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/15416426-Jewish-museum-interior-detail-Shalechet-Fallen-Leaves-in-a--Stock-Photo.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/15416426-Jewish-museum-interior-detail-Shalechet-Fallen-Leaves-in-a--Stock-Photo.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/15416426-Jewish-museum-interior-detail-Shalechet-Fallen-Leaves-in-a--Stock-Photo.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/p03l1t8r.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/p03l1t8r.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/p03l1t8r.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem-top-view-night.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem-top-view-night.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem-top-view-night.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/130707_temple.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/130707_temple.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/130707_temple.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/national-gallery-of-art.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/national-gallery-of-art.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/national-gallery-of-art.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Ne_York_NY_Zichron_Ephraim_aka_Park_East_Synagogue_photo_S_Gruber_2008.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Ne_York_NY_Zichron_Ephraim_aka_Park_East_Synagogue_photo_S_Gruber_2008.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Ne_York_NY_Zichron_Ephraim_aka_Park_East_Synagogue_photo_S_Gruber_2008.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/New-Fordham-Law-School-by-Pei-Cobb-Freed-11.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/New-Fordham-Law-School-by-Pei-Cobb-Freed-11.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/New-Fordham-Law-School-by-Pei-Cobb-Freed-11.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/MillauViaduct.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/MillauViaduct.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/MillauViaduct.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Gallery-The-Jewish-Town-FOT.-M.STAROWIEYSKA_D.GOLIK-3.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Gallery-The-Jewish-Town-FOT.-M.STAROWIEYSKA_D.GOLIK-3.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Gallery-The-Jewish-Town-FOT.-M.STAROWIEYSKA_D.GOLIK-3.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/13e91e5ccea4293cc633fc3536d95d5c.jpeg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/13e91e5ccea4293cc633fc3536d95d5c.jpeg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/13e91e5ccea4293cc633fc3536d95d5c.jpeg</from>
+        <to>/usr/share/backgrounds/kiosk/1zoom-me.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1zoom-me.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1zoom-me.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/038_c.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/038_c.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/038_c.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/20150520171529-Jerusalem.png</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/20150520171529-Jerusalem.png</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/20150520171529-Jerusalem.png</from>
+        <to>/usr/share/backgrounds/kiosk/Sicily-palermo-martorana-church-mosaics-byzantine.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Sicily-palermo-martorana-church-mosaics-byzantine.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Sicily-palermo-martorana-church-mosaics-byzantine.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/kyoto-tofuukuji-rock-garden-2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/kyoto-tofuukuji-rock-garden-2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/kyoto-tofuukuji-rock-garden-2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Bank of China Tower.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Bank of China Tower.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Bank of China Tower.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/p03l2918.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/p03l2918.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/p03l2918.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/referenzen-gallery-doha-museum.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/referenzen-gallery-doha-museum.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/referenzen-gallery-doha-museum.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/libeskind-berlin-jewish-museum-074.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/libeskind-berlin-jewish-museum-074.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/libeskind-berlin-jewish-museum-074.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Znamenskaya_cerkov_Vilnius.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Znamenskaya_cerkov_Vilnius.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Znamenskaya_cerkov_Vilnius.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem-banner.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem-banner.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem-banner.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/I.M. Pei Building.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/I.M. Pei Building.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/I.M. Pei Building.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/DSC00346.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/DSC00346.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/DSC00346.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1378435052.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1378435052.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1378435052.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/20110320_w1763_b6465_h1010_enE03_ps_nLaDefense_s1600.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/20110320_w1763_b6465_h1010_enE03_ps_nLaDefense_s1600.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/20110320_w1763_b6465_h1010_enE03_ps_nLaDefense_s1600.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/hallhouse-interior-loft-bedroom.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/hallhouse-interior-loft-bedroom.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/hallhouse-interior-loft-bedroom.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/IMAG7068.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/IMAG7068.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/IMAG7068.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1_Pei-Plan-Model.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1_Pei-Plan-Model.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1_Pei-Plan-Model.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/JFK_library_Stitch_Crop.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/JFK_library_Stitch_Crop.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/JFK_library_Stitch_Crop.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/testuser5_oct2007_01_meier_am121007_dLaquD_hYaOJX.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/testuser5_oct2007_01_meier_am121007_dLaquD_hYaOJX.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/testuser5_oct2007_01_meier_am121007_dLaquD_hYaOJX.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/OCT DESIGN MUSEUM BY STUDIO PEI-ZHU06.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/OCT DESIGN MUSEUM BY STUDIO PEI-ZHU06.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/OCT DESIGN MUSEUM BY STUDIO PEI-ZHU06.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/louvre-paris2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/louvre-paris2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/louvre-paris2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/630-2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/630-2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/630-2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/maxresdefault.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/maxresdefault.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/maxresdefault.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/8174851573_92f1f72123_b.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/8174851573_92f1f72123_b.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/8174851573_92f1f72123_b.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/0002 pei.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/0002 pei.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/0002 pei.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Photo - OCT Happy Harbour - Credit Tom Fox - 0868.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Photo - OCT Happy Harbour - Credit Tom Fox - 0868.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Photo - OCT Happy Harbour - Credit Tom Fox - 0868.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/IMG_4907.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/IMG_4907.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/IMG_4907.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/6129857899_934c629a5a_b.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/o-JERUSALEM-ISRAEL-facebook.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/o-JERUSALEM-ISRAEL-facebook.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/o-JERUSALEM-ISRAEL-facebook.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/1836922.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/1836922.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/1836922.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/SVLI-011-Praha-josefov-Spanelska_sng.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/SVLI-011-Praha-josefov-Spanelska_sng.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/SVLI-011-Praha-josefov-Spanelska_sng.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Paris-La-Defense-Tour-EDF-3-Final.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Background-History-SalinaWaterSt-CW.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Background-History-SalinaWaterSt-CW.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Background-History-SalinaWaterSt-CW.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/rome-cheap-package-deal-bridge.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/rome-cheap-package-deal-bridge.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/rome-cheap-package-deal-bridge.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/p03l2bng.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/p03l2bng.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/p03l2bng.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/jerusalem.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/jerusalem.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/jerusalem.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/arch_7WONDERS_14.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/arch_7WONDERS_14.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/arch_7WONDERS_14.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/IMG_2387.0.0.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/IMG_2387.0.0.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/IMG_2387.0.0.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/Jerusalem_vista.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Jerusalem_vista.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Jerusalem_vista.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/7bJoe4A.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/7bJoe4A.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/7bJoe4A.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/WES_0920.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/WES_0920.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/WES_0920.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10-2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10-2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/oscar-niemeyer-brazilian-architect-chicquero-design-brasilia-palace-of-the-dawn-10-2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/616x510.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/616x510.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/616x510.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/dscn1831.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/dscn1831.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/dscn1831.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Hong-Kong-2.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Hong-Kong-2.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Hong-Kong-2.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/cape-tryon.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/cape-tryon.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/cape-tryon.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/img_0173_foto-anete-krumina.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/img_0173_foto-anete-krumina.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/img_0173_foto-anete-krumina.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/Prince_edward_island_sandstone_arch.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/Prince_edward_island_sandstone_arch.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/Prince_edward_island_sandstone_arch.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/sydney_opera_house.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/sydney_opera_house.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/sydney_opera_house.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/7494988914_bc3823e211_b.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/7494988914_bc3823e211_b.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/7494988914_bc3823e211_b.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/i_m_pei_city_hall_web.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/i_m_pei_city_hall_web.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/i_m_pei_city_hall_web.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/matera_DSC01817.JPG</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/matera_DSC01817.JPG</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/matera_DSC01817.JPG</from>
+        <to>/usr/share/backgrounds/kiosk/dtma-cv-rak-1.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/dtma-cv-rak-1.jpg</file>
+    </static>
+
+    <transition type="fade">
+        <duration>5.0</duration>
+        <from>/usr/share/backgrounds/kiosk/dtma-cv-rak-1.jpg</from>
+        <to>/usr/share/backgrounds/kiosk/walls-of-jerusalem.jpg</to>
+    </transition>
+    <static>
+        <duration>300</duration>
+        <file>/usr/share/backgrounds/kiosk/walls-of-jerusalem.jpg</file>
+    </static>
+</background>
