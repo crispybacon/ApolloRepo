@@ -1,4 +1,5 @@
 import requests, json, re, folium, datetime, pymongo
+
 NYTkeys = {
     'mostPopular':'',
     'books':'',
@@ -217,11 +218,17 @@ def relatedURLS(article, report=False):
 def followURLSMap(urls, report=False):
     report = {}
     x=0
-    for i in range(0,len(urls), 2):
-        rArticle = specificArticle(urls[i]['url'])
-        results = rArticle['results'][0]
-        report[x] = results
-        x += 1
+    targets = [x['url'] for x in urls if 'url' in x.keys()]
+    for i in range(len(targets)):
+        #print(targets[i])
+        try:
+            rArticle = specificArticle(targets[i])
+            results = rArticle['results'][0]
+            report[x] = results
+            x += 1
+        except Exception as e:
+            print(targets[i], 'download failed')
+            pass
     return report
 def makePopUp(results):
     summary = results1['abstract']
@@ -259,15 +266,14 @@ def addCluster(layer, cluster, color):
 def layer3Relations(layer1_relations, layer2):
     i=0
     layer1_urls = []
-    for x in range(0,len(layer1_relations), 2):
-        layer1_urls.append(layer1_relations[x]['url'])
+    targets = [x['url'] for x in layer1_relations if 'url' in x.keys()]
     new_urls = []
     for x in layer2:
         try:
             urls = layer2[x]['related_urls']
             for x in range(1,len(urls), 2):
                 #print(urls[x]['url'])
-                if urls[x]['url'] not in layer1_urls:
+                if urls[x]['url'] not in targets:
                     if urls[x] not in new_urls:
                         new_urls.append(urls[x])
         except:pass
@@ -292,8 +298,8 @@ def mapArticleRelations(article):
         except:
             pass
     newsMap = folium.Map(location=primaryPost,tiles='Stamen Watercolor', zoom_start=2)
-    layer2Cluster = folium.MarkerCluster().add_to(newsMap)
-    layer3Cluster = folium.MarkerCluster().add_to(newsMap)
+    layer2Cluster = MarkerCluster().add_to(newsMap)
+    layer3Cluster = MarkerCluster().add_to(newsMap)
     print(layer1['results'][0]['title'])
     print('Primary: Blue')
     print('Layer 2 Relations: Red')
